@@ -6,3 +6,56 @@ Pink: FFD8D8
 Red: ED3500
 
 */
+
+* {
+    margin: 0;
+}
+
+body, html {
+    background-color: #FFFCFB;
+}
+
+.content {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding: 2em;
+}
+
+h1 {
+    font-family: 'Fugaz One', sans-serif;
+    font-size: 2em;
+}
+
+p {
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 1.25em;
+}
+
+.hero-text {
+    font-family: 'Fugaz One', sans-serif;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    font-size: 5em;
+    margin: 0.5em;
+    color: #093FB4;
+}
+
+.header {
+    padding: 0.5em 0em;
+}
+
+.header h1 {
+    font-family: 'Fugaz One', sans-serif;
+    color: #ED3500;
+}
+
+.header-underline {
+    background-color: #FFD8D8;
+    width: 100%;
+    height: 0.3em;
+    margin: 0.5em 0em 1em 0em;
+}
