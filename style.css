@@ -229,6 +229,7 @@ p {
     background-color: #FFFCFB;
     border: none;
     padding: 0.25em 0.5em;
+    border-radius: 0.25em;
 }
 
 #script-button, #copy-button {
