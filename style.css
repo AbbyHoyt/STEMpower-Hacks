@@ -201,6 +201,7 @@ p {
     text-decoration-color: #ED3500;
     text-underline-offset: .15em;
     text-decoration-style: double;
+    margin-bottom: 0.25em;
 }
 
 @media screen and (max-width: 1200px) {
