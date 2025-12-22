@@ -159,6 +159,29 @@ p {
     text-align: center;
 }
 
+.big-bold-year {
+    font-size: 18em;
+    text-align: center;
+    color: #ED3500;
+    text-decoration: underline;
+    text-decoration-color: #FFD8D8;
+    text-underline-offset: .15em;
+    text-decoration-style: wavy;
+}
+
+.big-bold-year-2 {
+    font-size: 12em;
+    text-align: center;
+    color: #093FB4;
+    text-decoration: underline;
+    text-decoration-color: #ED3500;
+    text-underline-offset: .15em;
+    text-decoration-style: double;
+}
+
+.chart {
+    width: 65%;
+    height: auto;
 .personalized-script {
     background-color: #FFD8D8;
     padding: 1.5em 3em;
@@ -170,6 +193,8 @@ p {
     display: block;
 }
 
+.highcharts-root {
+    font-family: 'Inclusive Sans', sans-serif !important;
 .script-item {
     margin: 1.5em 0em;
     display: flex;
