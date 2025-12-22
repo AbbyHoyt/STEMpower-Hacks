@@ -274,6 +274,11 @@ p {
     border-radius: 0.25em;
 }
 
+.script-item input[type="text"]:focus {
+    outline: 0.2em solid #ED3500;
+    outline-offset: 0.05em;
+}
+
 #script-button, #copy-button {
     background-color: #ED3500;
     font-family: 'Inclusive Sans', sans-serif;
@@ -285,6 +290,15 @@ p {
     padding: 0.5em;
     overflow: auto;
     margin-left: auto;
+}
+
+#script-button:hover, #copy-button:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+#script-button:active, #copy-button:active {
+    scale: 0.95;
 }
 
 #copy-button {
