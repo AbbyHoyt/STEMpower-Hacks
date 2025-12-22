@@ -309,3 +309,58 @@ p {
     margin-top: 2em;
     margin-bottom: 1em;
 }
+
+.revolving-text {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding: 2em;
+    border-radius: 0.5em;
+    border: 0.25em dashed #FFD8D8;
+}
+
+.moving-text {
+    font-family: 'Inclusive Sans', sans-serif;
+    color: #093FB4;
+    height: 6.25em;
+    line-height: 5.625em;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+}
+
+.moving-text li {
+    list-style: none;
+    color: #093FB4;
+    font-size: 3em;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(5) infinite;
+}
+
+.moving-text span {
+    position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+    .moving-text li {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .moving-text li {
+        font-size: 1.25em;
+    }
+}
+
+@keyframes slide {
+    100% {
+        top: -450px;
+    }
+}
