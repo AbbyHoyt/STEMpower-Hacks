@@ -168,3 +168,15 @@ p {
     text-underline-offset: .15em;
     text-decoration-style: wavy;
 }
+
+.chart {
+    width: 65%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.highcharts-root {
+    font-family: 'Inclusive Sans', sans-serif !important;
+}

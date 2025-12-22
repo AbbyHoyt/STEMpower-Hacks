@@ -15,6 +15,13 @@
 
 	    <!--Link the JavaScript File-->
 	    <script src="script.js" defer></script>
+        <script src="./charts.js" defer></script>
+
+        <!--Highcharts-->
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/data.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/modules/accessibility.js"></script>
 
         <!--Link Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -86,6 +93,16 @@
 
             <h1 class="big-bold-year">2063</h1>
             <h1 class="centered">Gender parity in legislative bodies will not be achieved by then.</h1>
+
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <h1 class="centered">How are women represented in local governments?</h1>
+            <br>
+            <div id="localGovRepresentation" class="chart"></div>
         </div>
     </body>
 </html>
