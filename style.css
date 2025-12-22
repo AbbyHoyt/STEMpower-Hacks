@@ -37,6 +37,10 @@ p {
     h1 {
         font-size: 1.5em;
     }
+
+    .chart {
+        width: 100%;
+    }
 }
 
 .centered {
