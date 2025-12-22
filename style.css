@@ -33,6 +33,10 @@ p {
     font-size: 1em;
 }
 
+.centered {
+    text-align: center;
+}
+
 .navbar {
     background-color: #FFFCFB;
     margin: 0em;
@@ -57,6 +61,33 @@ p {
     padding: 1em;
 }
 
+.navbar a:hover {
+    color: #ED3500;
+}
+
+.hover-underline {
+    display: inline-block;
+    position: relative;
+}
+  
+.hover-underline::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 0.2em;
+    bottom: 0;
+    left: 0;
+    background-color: #FFD8D8;
+    transform-origin: bottom center;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover-underline:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+}
+
 .hero-text {
     font-family: 'Fugaz One', sans-serif;
     text-align: center;
@@ -64,8 +95,7 @@ p {
     margin-left: auto;
     display: block;
     font-size: 5em;
-    margin: 0.5em;
-    margin-top: 0em;
+    margin: 0.75em;
     color: #093FB4;
 }
 
@@ -74,6 +104,7 @@ p {
     height: 20em;
     display: block;
     margin: auto;
+    margin-bottom: -3em;
 }
 
 .header {

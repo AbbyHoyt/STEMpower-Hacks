@@ -28,17 +28,44 @@
 
     <body>
         <div class="navbar">
-            <a href="index.html">Learn</a>
-            <a href="explore.html">Explore</a>
-            <a href="inspire.html">Inspire</a>
-            <a href="inform.html">Inform</a>
+            <a class="hover-underline" href="index.html">Learn</a>
+            <a class="hover-underline" href="explore.html">Explore</a>
+            <a class="hover-underline" href="inspire.html">Inspire</a>
+            <a class="hover-underline" href="inform.html">Inform</a>
         </div>
 
         <br>
 
         <div class="content">
-            <img class="hero-image" src="assets/logo.png" alt="">
             <h1 class="hero-text">Inform</h1>
+
+            <h1>Generate a Message Encouraging Someone to Vote</h1>
+
+            <div class="personalized-script">
+                <div class="script-item">
+                    <label for="your-name">Your Name:<br></label>
+                    <input type="text" placeholder="Your name..." id="your-name" >
+                </div>
+
+                <div class="script-item">
+                    <label for="recipient-name">Recipient Name:<br></label>
+                    <input type="text" placeholder="Who you are writing to..." id="recipient-name" >
+                </div>
+
+                <div class="script-item">
+                    <label for="issue">Issue You Care About:<br></label>
+                    <input type="text" placeholder="Why their vote matters..." id="issue" >
+                </div>
+
+                <button id="script-button">Generate a Personalized Message</button>
+            </div>
+
+            <p id="script-returned"></p>
+
+            <br>
+            <button id="copy-button">Copy Your Message</button>
+            <br>
+
         </div>
         
     </body>
