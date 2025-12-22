@@ -1,5 +1,6 @@
 var displayScript = document.getElementById("script-returned");
 var scriptButton = document.getElementById("script-button");
+var copyButton = document.getElementById("copy-button");
 
 if (scriptButton) {
     scriptButton.addEventListener("click", generateScript);
@@ -10,8 +11,11 @@ function generateScript() {
     var sender = document.getElementById("your-name").value;
     var issue = document.getElementById("issue").value;
 
+    displayScript.style.display = 'block';
     displayScript.innerHTML = "Hi " + recipient + " it's " + sender + ". Remember that your vote matters! Voting is important because of issues like " + issue + ".";
     displayScript = "Hi " + recipient + " it's " + sender + ". Remember that your vote matters! Voting is important because of issues like " + issue + ".";
+    copyButton.style.display = 'block';
+    scriptButton.style.display = 'none';
 }
 
 var copyButton = document.getElementById("copy-button");
