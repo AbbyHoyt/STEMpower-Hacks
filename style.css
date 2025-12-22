@@ -91,3 +91,36 @@ p {
     height: 0.3em;
     margin: 0.5em 0em 1em 0em;
 }
+
+.country-grid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+
+.country-card {
+    margin-top: -2em;
+}
+
+.country-card img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    height: 12em;
+    margin: 5em;
+}
+
+.percent {
+    margin-top: -1em;
+    font-family: 'Fugaz One', sans-serif;
+    font-size: 3em;
+}
+
+.country-card p {
+    text-align: center;
+}
