@@ -169,6 +169,16 @@ p {
     text-decoration-style: wavy;
 }
 
+.big-bold-year-2 {
+    font-size: 12em;
+    text-align: center;
+    color: #093FB4;
+    text-decoration: underline;
+    text-decoration-color: #ED3500;
+    text-underline-offset: .15em;
+    text-decoration-style: double;
+}
+
 .chart {
     width: 65%;
     height: auto;
