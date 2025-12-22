@@ -191,6 +191,7 @@ p {
     text-decoration-color: #FFD8D8;
     text-underline-offset: .15em;
     text-decoration-style: wavy;
+    margin-top: -.1em;
 }
 
 .big-bold-year-2 {
