@@ -14,15 +14,12 @@ function generateScript() {
     displayScript = "Hi " + recipient + " it's " + sender + ". Remember that your vote matters! Voting is important because of issues like " + issue + ".";
 }
 
-/*Declare Copy Button Variable */
 var copyButton = document.getElementById("copy-button");
 
-/* Store Event Listener In Case the DOM Does Not Load Fully */
 if (copyButton) {
     copyButton.addEventListener("click", copyScriptText);
 }
 
-/* Copy Script Text Function */
 function copyScriptText() {
     var str = document.getElementById("script-element");
     var el = document.createElement("textarea");
