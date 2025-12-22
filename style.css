@@ -37,10 +37,6 @@ p {
     h1 {
         font-size: 1.5em;
     }
-
-    .chart {
-        width: 100%;
-    }
 }
 
 .centered {
@@ -166,6 +162,17 @@ p {
     margin: 5em;
 }
 
+@media screen and (max-width: 900px) {
+    .country-card {
+        margin-top: 2em; 
+    }
+
+    .country-card img {
+        height: 8em;
+        margin: 3em;
+    }
+}
+
 .percent {
     margin-top: -1em;
     font-family: 'Fugaz One', sans-serif;
@@ -212,6 +219,12 @@ p {
     margin-right: auto;
     margin-left: auto;
     display: block;
+}
+
+@media screen and (max-width: 900px) {
+    .chart {
+        width: 100%;
+    }
 }
 
 .highcharts-root {
