@@ -73,6 +73,13 @@ p {
     color: #093FB4;
 }
 
+.hero-image {
+    padding-top: 3em;
+    height: 25em;
+    display: block;
+    margin: auto;
+}
+
 .header {
     padding: 0.5em 0em;
 }
