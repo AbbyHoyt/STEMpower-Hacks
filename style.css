@@ -105,6 +105,9 @@ p {
 
 .country-card {
     margin-top: -2em;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 
 .country-card img {
