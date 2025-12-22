@@ -49,10 +49,6 @@ p {
     border-bottom: 0.01em solid #000000;
 }
 
-.navbar-logo img {
-    height: 4.5em;
-}
-
 .navbar a {
     font-family: 'Inclusive Sans', sans-serif;
     text-decoration: none;
