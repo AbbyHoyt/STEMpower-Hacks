@@ -33,6 +33,12 @@ p {
     font-size: 1em;
 }
 
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
 .centered {
     text-align: center;
 }
@@ -97,6 +103,13 @@ p {
     font-size: 5em;
     margin: 0.75em;
     color: #093FB4;
+}
+
+@media screen and (max-width: 900px) {
+    .hero-text {
+        font-size: 3em;
+        margin: 1.5em 0em;
+    }
 }
 
 .hero-image {
@@ -177,6 +190,16 @@ p {
     text-decoration-color: #ED3500;
     text-underline-offset: .15em;
     text-decoration-style: double;
+}
+
+@media screen and (max-width: 1200px) {
+    .big-bold-year {
+        font-size: 9em;
+    }
+
+    .big-bold-year-2 {
+        font-size: 5em;
+    }
 }
 
 .chart {
