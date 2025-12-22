@@ -158,3 +158,13 @@ p {
 .country-card p {
     text-align: center;
 }
+
+.big-bold-year {
+    font-size: 18em;
+    text-align: center;
+    color: #ED3500;
+    text-decoration: underline;
+    text-decoration-color: #FFD8D8;
+    text-underline-offset: .15em;
+    text-decoration-style: wavy;
+}
