@@ -356,7 +356,7 @@ p {
 
 @media screen and (max-width: 900px) {
     .moving-text li {
-        font-size: 1.25em;
+        font-size: 1em;
     }
 }
 
