@@ -585,3 +585,7 @@ p {
     display: flex;
     transform: rotate(7deg);
 }
+
+#result {
+    display: none;
+}
