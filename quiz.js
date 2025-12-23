@@ -63,5 +63,6 @@ function incorrect() {
 }
 
 function showScore() {
-    result.innerHTML = "Your Score: " + score + "/5"
+  result.style.display = 'block';
+  result.innerHTML = "Your Score: " + score + "/5"
 }
