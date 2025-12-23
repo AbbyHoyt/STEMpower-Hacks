@@ -35,3 +35,27 @@ function copyScriptText() {
     
     alert("Personalized message successfully copied to clipboard!");
 }
+
+var quoteList = [
+    "\"Women belong in all places where decisions are being made. It shouldn't be that women are the exception.\" -Ruth Bader Ginsburg",
+    "\"The only people who know what girls want are girls.\" -Malala Yousafzai",
+    "\"Any great change must expect opposition, because it shakes the very foundation of privilege.\" -Lucretia Mott",
+    "\"I know nothing of man's rights, or woman's rights; human rights are all that I recognize.\" -Sarah Moore Grimke",
+    "\"Failure is impossible.\" -Susan B. Anthony"
+]
+
+var quote = document.getElementById("quote");
+
+var button = document.getElementById("inspire-me");
+
+var count = 0;
+
+button.addEventListener("click", displayQuote);
+
+function displayQuote() {
+    quote.innerHTML = quoteList[count];
+    count++;
+    if (count == quoteList.length) {
+        count = 0;
+    }
+}
