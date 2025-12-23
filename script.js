@@ -39,9 +39,9 @@ function copyScriptText() {
 var quoteList = [
     "\"Women belong in all places where decisions are being made. It shouldn't be that women are the exception.\" -Ruth Bader Ginsburg",
     "\"The only people who know what girls want are girls.\" -Malala Yousafzai",
-    "\"Failure is impossible.\" -Susan B. Anthony",
     "\"Any great change must expect opposition, because it shakes the very foundation of privilege.\" -Lucretia Mott",
-    "\“I know nothing of man's rights, or woman's rights; human rights are all that I recognize.\" -Sarah Moore Grimke"
+    "\"I know nothing of man's rights, or woman's rights; human rights are all that I recognize.\" -Sarah Moore Grimke",
+    "\"Failure is impossible.\" -Susan B. Anthony"
 ]
 
 var quote = document.getElementById("quote");

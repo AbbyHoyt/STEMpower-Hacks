@@ -384,3 +384,50 @@ p {
     border-bottom: 0.01em solid #000000;
     margin: 2em 0em;
 }
+
+.inspire-me-quotes {
+    background-color: #ED3500;
+    padding: 1.5em 3em;
+    border-radius: 1em;
+    margin: 1em;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+#inspire-me button {
+    background-color: #093FB4;
+    font-family: 'Inclusive Sans', sans-serif;
+    color: #FFFCFB;
+    font-size: 1em;
+    border-radius: 0.25em;
+    border: none;
+    margin: 1em 0em;
+    padding: 0.5em;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2em;
+}
+
+#inspire-me:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+#inspire-me:active {
+    scale: 0.95;
+}
+
+#quote {
+    font-size: 2em;
+    font-family: 'Inclusive Sans', sans-serif;
+    color: #FFFCFB;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 1em;
+}
