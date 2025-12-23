@@ -588,6 +588,14 @@ p {
     transform: rotate(7deg);
 }
 
+.reason-red:hover {
+    transform: rotate(7deg);
+}
+
+.reason-blue:hover {
+    transform: rotate(-7deg);
+}
+
 #result {
     display: none;
 }
