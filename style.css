@@ -385,6 +385,108 @@ p {
     margin: 2em 0em;
 }
 
+.suffragist-card-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 1em;
+}
+
+@media screen and (max-width: 900px) {
+    .suffragist-card-gallery {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.suffragist-card {
+    width: 30%;
+    margin: 1em;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .suffragist-card {
+        width: 100%;
+        margin: 2em;
+    }
+}
+
+.suffragist-card img {
+    height: 15em;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.suffragist-card h1 {
+    text-align: center;
+    font-size: 1.25em;
+    width: 100%;
+    margin: 0.5em;
+}
+
+.suffragist-card p {
+    text-align: center;
+    font-size: 0.75em;
+    width: 100%;
+}
+
+.suffragist-card a {
+    text-align: center;
+    color: #093FB4;
+}
+
+.suffragist-card a:visited {
+    color: #093FB4;
+}
+
+.suffragist-card a:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.picture-frame-1 {
+    border: 0.5em solid #ED3500;
+    border-style: double;
+    padding: 0.25em;
+}
+
+.picture-frame-2 {
+    border: 0.4em solid #093FB4;
+    border-radius: 6em;
+    padding: 0.5em;
+}
+
+.picture-frame-3 {
+    border: 1em solid #FFD8D8;
+    border-style: dotted;
+}
+
+.picture-frame-4 {
+    border: 0.5em dotted #093FB4;
+    border-radius: 0.5em;
+}
+
+.picture-frame-5 {
+    border: 0.35em dashed #FFD8D8;
+    padding: 0.5em;
+}
+
+.picture-frame-6 {
+    border: 0.3em dashed #ED3500;
+    border-radius: 2em;
+    padding: 0.25em;
+}
+
 .inspire-me-quotes {
     background-color: #ED3500;
     padding: 1.5em 3em;
