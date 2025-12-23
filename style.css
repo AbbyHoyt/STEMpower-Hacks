@@ -565,12 +565,13 @@ p {
 }
 
 .reason-red {
-    width: 6em;
-    height: 6em;
+    width: 5.5em;
+    height: 5.5em;
     align-items: center;
     display: flex;
     background-color: #FFD8D8;
     border: 0.2em solid #ED3500;
+    border-radius: 0.25em 1em 0.25em 1em;
     padding: 1.5em;
     transform: rotate(-7deg);
 }
@@ -579,8 +580,8 @@ p {
     border: 0.4em double #093FB4;
     padding: 1.5em;
     border-radius: 50%;
-    width: 6em;
-    height: 6em;
+    width: 5.5em;
+    height: 5.5em;
     align-items: center;
     display: flex;
     transform: rotate(7deg);
