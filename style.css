@@ -635,6 +635,10 @@ p {
     scale: 0.95;
 }
 
+.answer-box button[disabled] {
+    opacity: 0.5;
+}
+
 #result {
     text-align: center;
     font-size: 2em;

@@ -66,3 +66,55 @@ function showScore() {
   result.style.display = 'block';
   result.innerHTML = "Your Score: " + score + "/5"
 }
+
+q1a1.addEventListener("click", disableQuestion1);
+q1a2.addEventListener("click", disableQuestion1);
+q1a3.addEventListener("click", disableQuestion1);
+q1a4.addEventListener("click", disableQuestion1);
+
+function disableQuestion1() {
+  q1a1.disabled = true;
+  q1a2.disabled = true;
+  q1a3.disabled = true;
+  q1a4.disabled = true;
+}
+
+q2a1.addEventListener("click", disableQuestion2);
+q2a2.addEventListener("click", disableQuestion2);
+
+function disableQuestion2() {
+  q2a1.disabled = true;
+  q2a2.disabled = true;
+}
+
+q3a1.addEventListener("click", disableQuestion3);
+q3a2.addEventListener("click", disableQuestion3);
+q3a3.addEventListener("click", disableQuestion3);
+q3a4.addEventListener("click", disableQuestion3);
+
+function disableQuestion3() {
+  q3a1.disabled = true;
+  q3a2.disabled = true;
+  q3a3.disabled = true;
+  q3a4.disabled = true;
+}
+
+q4a1.addEventListener("click", disableQuestion4);
+q4a2.addEventListener("click", disableQuestion4);
+
+function disableQuestion4() {
+  q4a1.disabled = true;
+  q4a2.disabled = true;
+}
+
+q5a1.addEventListener("click", disableQuestion5);
+q5a2.addEventListener("click", disableQuestion5);
+q5a3.addEventListener("click", disableQuestion5);
+q5a4.addEventListener("click", disableQuestion5);
+
+function disableQuestion5() {
+  q5a1.disabled = true;
+  q5a2.disabled = true;
+  q5a3.disabled = true;
+  q5a4.disabled = true;
+}
