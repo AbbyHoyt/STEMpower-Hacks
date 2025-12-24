@@ -253,7 +253,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .script-item label, input {
@@ -306,6 +305,7 @@ p {
 }
 
 #copy-button {
+    margin-top: 1.5em;
     display: none;
 }
 
@@ -327,6 +327,28 @@ p {
     border-radius: 0.25em;
     margin-top: 2em;
     margin-bottom: 1em;
+}
+
+@media screen and (max-width: 1300px) {
+    .script-item {
+        display: block;
+    }
+
+    .script-item label {
+        margin-bottom: 1em;
+    }
+
+    .script-item input {
+        width: 100% !important;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    #script-button, #copy-button {
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
 .revolving-text {
