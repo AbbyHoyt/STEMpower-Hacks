@@ -119,14 +119,26 @@ img {
     color: #093FB4;
 }
 
+.hero-subtext {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+}
+
 #home-text {
     margin: 0.25em;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
     .hero-text {
         font-size: 3em;
         margin: 1.5em 0em;
+    }
+
+    .hero-subtext {
+        width: 100%;
     }
 }
 
