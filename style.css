@@ -101,7 +101,7 @@ p {
     margin-left: auto;
     display: block;
     font-size: 5em;
-    margin: 0.75em;
+    margin: 0.25em;
     color: #093FB4;
 }
 
@@ -117,7 +117,7 @@ p {
     height: 20em;
     display: block;
     margin: auto;
-    margin-bottom: -3em;
+    margin-bottom: -1.5em;
 }
 
 .header {
