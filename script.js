@@ -37,19 +37,19 @@ function copyScriptText() {
 }
 
 var quoteList = [
-    "\"Women belong in all places where decisions are being made. It shouldn't be that women are the exception.\"",
+    "\"Failure is impossible.\"",
     "\"The only people who know what girls want are girls.\"",
     "\"Any great change must expect opposition, because it shakes the very foundation of privilege.\"",
     "\"I know nothing of man's rights, or woman's rights; human rights are all that I recognize.\"",
-    "\"Failure is impossible.\""
+    "\"Women belong in all places where decisions are being made. It shouldn't be that women are the exception.\"",
 ]
 
 var authorList = [
-    "-Ruth Bader Ginsburg",
+    "-Susan B. Anthony",
     "-Malala Yousafzai",
     "-Lucretia Mott",
     "-Sarah Moore Grimke",
-    "-Susan B. Anthony"
+    "-Ruth Bader Ginsburg"
 ]
 
 var quote = document.getElementById("quote");
