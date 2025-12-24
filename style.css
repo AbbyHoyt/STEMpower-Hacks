@@ -418,7 +418,8 @@ p {
 @media screen and (max-width: 900px) {
     .suffragist-card {
         width: 100%;
-        margin: 2em;
+        display: block;
+        margin: 3em auto;
     }
 }
 
