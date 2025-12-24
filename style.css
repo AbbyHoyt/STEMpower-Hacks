@@ -43,6 +43,20 @@ p {
     text-align: center;
 }
 
+img {
+    -webkit-user-drag: none; 
+    -moz-user-drag: none;
+    -ms-user-drag: none;
+}
+
+::selection {
+  background-color: #FFD8D8;
+}
+
+::-moz-selection {
+  background-color: #FFD8D8;
+}
+
 .navbar {
     background-color: #FFFCFB;
     margin: 0em;
