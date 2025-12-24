@@ -117,11 +117,11 @@ p {
 }
 
 .hero-image {
-    padding-top: 3em;
     height: 20em;
     display: block;
     margin: auto;
     margin-bottom: -1.5em;
+    margin-top: 3em;
 }
 
 .header {
@@ -618,7 +618,6 @@ p {
 .answer-box button {
     margin-right: 1em;
     margin-left: 1em;
-
     background-color: #ED3500;
     font-family: 'Inclusive Sans', sans-serif;
     color: #FFFCFB;
@@ -648,4 +647,34 @@ p {
     font-size: 2em;
     font-family: 'Inclusive Sans', sans-serif;
     color: #093FB4;
+}
+
+.quick-facts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 1em;
+}
+
+.fact {
+    --s: 20em;
+    width: var(--s); 
+    aspect-ratio: 1;
+    --g:/calc(var(--s)*0.133) calc(var(--s)*0.133) radial-gradient(50% 50%,#000 99%,#0000 101%) no-repeat;
+    mask: calc(50% + var(--s)*0.411) calc(50% + var(--s)*0) var(--g),calc(50% + var(--s)*0.364) calc(50% + var(--s)*0.191) var(--g),calc(50% + var(--s)*0.233) calc(50% + var(--s)*0.338) var(--g),calc(50% + var(--s)*0.049) calc(50% + var(--s)*0.408) var(--g),calc(50% + var(--s)*-0.146) calc(50% + var(--s)*0.384) var(--g),calc(50% + var(--s)*-0.307) calc(50% + var(--s)*0.272) var(--g),calc(50% + var(--s)*-0.399) calc(50% + var(--s)*0.098) var(--g),calc(50% + var(--s)*-0.399) calc(50% + var(--s)*-0.098) var(--g),calc(50% + var(--s)*-0.307) calc(50% + var(--s)*-0.272) var(--g),calc(50% + var(--s)*-0.146) calc(50% + var(--s)*-0.384) var(--g),calc(50% + var(--s)*0.049) calc(50% + var(--s)*-0.408) var(--g),calc(50% + var(--s)*0.233) calc(50% + var(--s)*-0.338) var(--g),calc(50% + var(--s)*0.364) calc(50% + var(--s)*-0.191) var(--g),radial-gradient(calc(var(--s)*0.446),#000 99%,#0000 101%) subtract,calc(50% + var(--s)*0.474) calc(50% + var(--s)*0.117) var(--g),calc(50% + var(--s)*0.366) calc(50% + var(--s)*0.324) var(--g),calc(50% + var(--s)*0.173) calc(50% + var(--s)*0.457) var(--g),calc(50% + var(--s)*-0.059) calc(50% + var(--s)*0.485) var(--g),calc(50% + var(--s)*-0.278) calc(50% + var(--s)*0.402) var(--g),calc(50% + var(--s)*-0.433) calc(50% + var(--s)*0.227) var(--g),calc(50% + var(--s)*-0.489) calc(50% + var(--s)*0) var(--g),calc(50% + var(--s)*-0.433) calc(50% + var(--s)*-0.227) var(--g),calc(50% + var(--s)*-0.278) calc(50% + var(--s)*-0.402) var(--g),calc(50% + var(--s)*-0.059) calc(50% + var(--s)*-0.485) var(--g),calc(50% + var(--s)*0.173) calc(50% + var(--s)*-0.457) var(--g),calc(50% + var(--s)*0.366) calc(50% + var(--s)*-0.324) var(--g),calc(50% + var(--s)*0.474) calc(50% + var(--s)*-0.117) var(--g);
+
+    background-color: #FFD8D8;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.fact p {
+    padding: 3em;
+    text-align: center;
+    margin: 1em;
 }
