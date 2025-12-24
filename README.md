@@ -17,3 +17,13 @@ Facts and Information:
 Images:
 * Home page icon designed with Canva.
 * The sites where we sourced the famous suffragist pictures are acknowledged and linked in captions beneath their respective images.
+
+<br>
+
+Tools and Technologies:
+* HTML
+* CSS
+* JavaScript
+* [Highcharts](https://www.highcharts.com)
+* [JS Confetti Library](https://www.npmjs.com/package/js-confetti)
+* VS Code and GitHub
