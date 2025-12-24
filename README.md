@@ -5,10 +5,14 @@ References/Resources:
 * Fonts ([Inclusive Sans](https://fonts.google.com/specimen/Inclusive+Sans) and [Fugaz One](https://fonts.google.com/specimen/Fugaz+One)) from Google Fonts.
 * CSS wavy circle made using [CSS Generator](https://css-generators.com/wavy-circle/).
 
+<br>
+
 Facts and Information:
 * [UN Women](https://www.unwomen.org/en/articles/facts-and-figures/facts-and-figures-womens-leadership-and-political-participation)
 * [Center for American Women and Politics](https://cawp.rutgers.edu/facts/voters/gender-differences-voter-turnout)
 * [Women Deliver](https://womendeliver.org/why-women-in-politics/)
+
+<br>
 
 Images:
 * Home page icon designed with Canva.
