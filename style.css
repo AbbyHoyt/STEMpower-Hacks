@@ -659,6 +659,18 @@ p {
     margin: 1em;
 }
 
+@media screen and (max-width: 900px) {
+    .quick-facts {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    .fact {
+        margin: 1em;
+    }
+}
+
 .fact {
     --s: 20em;
     width: var(--s); 
@@ -676,5 +688,5 @@ p {
 .fact p {
     padding: 3em;
     text-align: center;
-    margin: 1em;
+    margin: 2em;
 }
