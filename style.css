@@ -378,9 +378,6 @@ img {
 }
 
 .revolving-text {
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
     margin-right: auto;
     margin-left: auto;
     display: block;
@@ -591,6 +588,24 @@ img {
     display: block;
     text-align: center;
     margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#author {
+    font-size: 2em;
+    font-family: 'Fugaz One', sans-serif;
+    color: #FFFCFB;
+    text-align: right;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+@media screen and (max-width: 750px) {
+    #author {
+        text-align: center;
+        margin: 0em;
+        margin-bottom: 1em;
+    }
 }
 
 .vote-reasons {
@@ -776,4 +791,11 @@ img {
         width: 100%;
         margin: 2em 0em;
     }
+}
+
+.big-bold-year, .big-bold-year-2, .inspire-me-quotes, .personalized-script, .reason, input, .suffragist-card, .moving-text, .fact, .answer-box {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
 }
