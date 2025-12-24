@@ -793,7 +793,7 @@ img {
     }
 }
 
-.big-bold-year, .big-bold-year-2, .inspire-me-quotes, .personalized-script, .reason, input, .suffragist-card, .moving-text, .fact, .answer-box {
+.big-bold-year, .big-bold-year-2, .inspire-me-quotes, .personalized-script, .reason, input, .suffragist-card, .moving-text, .fact, .answer-box, .navbar {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
