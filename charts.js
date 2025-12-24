@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
             panKey: 'shift'
         },
         title: {
-            text: 'Proportion of Eligible Adult Population Who Reported Voting (Men, 2024)',
+            text: 'Eligible Adult Population Who Reported Voting (Men, 2024)',
         },
         tooltip: {
             valueSuffix: '%'
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function () {
             panKey: 'shift'
         },
         title: {
-            text: 'Proportion of Eligible Adult Population Who Reported Voting (Women, 2024)',
+            text: 'Eligible Adult Population Who Reported Voting (Women, 2024)',
         },
         tooltip: {
             valueSuffix: '%'
