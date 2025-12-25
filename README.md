@@ -15,7 +15,7 @@
 <br>
 
 **Images:**
-* Home page icon designed with Canva.
+* Home page icon and country outlines designed with Canva.
 * The sites where we sourced the famous suffragist pictures are acknowledged and linked in captions beneath their respective images.
 
 <br>
