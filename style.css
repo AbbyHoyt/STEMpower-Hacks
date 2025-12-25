@@ -793,13 +793,6 @@ img {
     }
 }
 
-.big-bold-year, .big-bold-year-2, .inspire-me-quotes, .personalized-script, .reason, input, .suffragist-card, .moving-text, .fact, .answer-box, .navbar {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none; 
-}
-
 .resource-box {
     text-align: center;
     margin-top: 1em;
@@ -850,4 +843,11 @@ img {
 
 .resource-box button:active {
     scale: 0.95;
+}
+
+.big-bold-year, .big-bold-year-2, .inspire-me-quotes, .personalized-script, .reason, input, .suffragist-card, .moving-text, .fact, .answer-box, .navbar, .resource-box {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
 }
