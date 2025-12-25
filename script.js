@@ -19,7 +19,6 @@ function generateScript() {
 }
 
 var copyButton = document.getElementById("copy-button");
-var copySuccessMessage = document.getElementById("copy-success");
 
 if (copyButton) {
     copyButton.addEventListener("click", copyScriptText);
@@ -34,15 +33,7 @@ function copyScriptText() {
     el.setSelectionRange(0, 99999);
     navigator.clipboard.writeText(displayScript);
 
-    copySuccessMessage.style.display = 'block';
-    
-    //copyButton.textContent = "Message Copied to Clipboard!";
-
-    // setTimeout(() => {
-    //     copyButton.textContent = "Copy Your Message";
-    // }, 3000)
-
-    // alert("Personalized message successfully copied to clipboard!");
+    copyButton.textContent = "Message Copied to Clipboard!";
 }
 
 var quoteList = [
