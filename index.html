@@ -16,6 +16,7 @@
 	    <!--Link the JavaScript File-->
 	    <script src="script.js" defer></script>
         <script src="quiz.js" defer></script>
+        <script src="typewriter.js" defer></script>
 
         <!--Link Confetti-->
         <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
@@ -31,7 +32,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
     </head>
 
-    <body>
+    <body onload="typewriter()">
         <div class="navbar">
             <a class="hover-underline" href="index.html">Learn</a>
             <a class="hover-underline" href="explore.html">Explore</a>
@@ -67,6 +68,14 @@
                         <p>Women in leadership positions are powerful role models for younger generations.</p>
                     </div>
                 </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="nineteenth-amendment-text">
+                <p id="amendment">19th Amendment</p>
+                <p id="typewriterText"></p>
+                <!--<p id="typewriterText">The right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of sex.</p>   -->
             </div>
 
             <div class="divider"></div>
