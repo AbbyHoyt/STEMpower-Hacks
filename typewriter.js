@@ -7,5 +7,13 @@ function typewriter() {
     document.getElementById("typewriterText").innerHTML += text.charAt(i);
     i++;
     setTimeout(typewriter, speed);
+  } else {
+    setTimeout(() => {
+      typewriterText.innerHTML = ""
+      i = 0
+      typewriter()
+    }, 5000);
+    
+    return
   }
 }
