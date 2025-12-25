@@ -801,17 +801,18 @@ img {
 }
 
 .resource-box {
-
-}
-
-.resource-box {
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
+    align-items: center;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 
 .resource-box button {
-    margin: 0em 1em;
+    margin: 0.75em 1em;
     background-color: #093FB4;
     font-family: 'Inclusive Sans', sans-serif;
     color: #FFFCFB;
@@ -822,9 +823,23 @@ img {
     overflow: auto;
 }
 
+.resource-box a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .resource-box {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .resource-box button {
-        margin: 0.5em 1em;
+        margin: 1em;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
     }
 }
 
