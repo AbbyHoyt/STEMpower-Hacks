@@ -851,3 +851,35 @@ img {
     -ms-user-select: none;
     user-select: none; 
 }
+
+.nineteenth-amendment-text {
+    background-color: #093FB4;
+    padding: 1.5em 3em;
+    border-radius: 1em;
+    margin: 1em;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+#amendment {
+    font-size: 2em;
+    font-family: 'Fugaz One', sans-serif;
+    color: #FFFCFB;
+    text-align: left;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+#typewriterText {
+    font-size: 1.25em;
+    font-family: 'Inclusive Sans', sans-serif;
+    color: #FFFCFB;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: left;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
