@@ -699,7 +699,11 @@ img {
 
 @media screen and (max-width: 800px) {
     .answer-box button {
-        margin: 0.5em 1em;
+        margin: 1em;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
     }
 }
 
