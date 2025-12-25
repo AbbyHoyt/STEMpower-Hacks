@@ -13,7 +13,5 @@ function typewriter() {
       i = 0
       typewriter()
     }, 5000);
-    
-    return
   }
 }
