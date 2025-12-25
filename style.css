@@ -335,6 +335,14 @@ img {
     display: none;
 }
 
+#copy-success {
+    text-align: center;
+    margin: 1.5em;
+    color: #000000;
+    font-family: 'Inclusive Sans', sans-serif;
+    display: none;
+}
+
 #script-button {
     margin-right: auto;
     margin-left: auto;
