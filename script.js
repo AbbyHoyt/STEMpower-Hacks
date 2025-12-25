@@ -32,8 +32,8 @@ function copyScriptText() {
     el.select();
     el.setSelectionRange(0, 99999);
     navigator.clipboard.writeText(displayScript);
-    
-    alert("Personalized message successfully copied to clipboard!");
+
+    copyButton.textContent = "Message Copied to Clipboard!";
 }
 
 var quoteList = [
