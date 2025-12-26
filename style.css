@@ -503,14 +503,16 @@ img {
 
 .flip-frame-inner {
     position: relative;
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     margin-right: auto;
     margin-left: auto;
     display: block;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    align-items: center;
+    justify-content: center;
 }
 
 .flip-frame-front, .flip-frame-back {
@@ -544,6 +546,9 @@ img {
     padding: 1em;
     height: 18em;
     width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -570,14 +575,15 @@ img {
 .suffragist-frame h1 {
     text-align: center;
     font-size: 1.25em;
-    width: 100%;
+    width: 90%;
     margin: 0.5em;
 }
 
 .suffragist-frame p {
     text-align: center;
     font-size: 0.75em;
-    width: 100%;
+    width: 90%;
+    margin: 0em 0.75em;
 }
 
 .suffragist-frame a {
