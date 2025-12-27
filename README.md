@@ -31,4 +31,4 @@
 
 <br>
 
-View the project [here](https://abbyhoyt.github.io/STEMpower-Hacks/explore.html)!
+View the project [here](https://abbyhoyt.github.io/STEMpower-Hacks/index.html)!
