@@ -13,6 +13,7 @@ Red: ED3500
 
 body, html {
     background-color: #FFFCFB;
+    overflow-x: hidden
 }
 
 .content {
@@ -21,7 +22,6 @@ body, html {
     margin-left: auto;
     display: block;
     padding: 2em 0em;
-    overflow: hidden;
     max-width: 1375px;
 }
 
