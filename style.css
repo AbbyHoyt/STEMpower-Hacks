@@ -441,76 +441,6 @@ img {
     margin: 2em 0em;
 }
 
-.suffragist-card-gallery {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row; 
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 1em;
-}
-
-@media screen and (max-width: 900px) {
-    .suffragist-card-gallery {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-    }
-}
-
-.suffragist-card {
-    width: 30%;
-    margin: 1em;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-@media screen and (max-width: 900px) {
-    .suffragist-card {
-        width: 100%;
-        display: block;
-        margin: 3em auto;
-    }
-}
-
-.suffragist-card img {
-    height: 15em;
-    width: auto;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    margin-bottom: 1em;
-}
-
-.suffragist-card h1 {
-    text-align: center;
-    font-size: 1.25em;
-    width: 100%;
-    margin: 0.5em;
-}
-
-.suffragist-card p {
-    text-align: center;
-    font-size: 0.75em;
-    width: 100%;
-}
-
-.suffragist-card a {
-    text-align: center;
-    color: #093FB4;
-}
-
-.suffragist-card a:visited {
-    color: #093FB4;
-}
-
-.suffragist-card a:hover {
-    cursor: pointer;
-    opacity: 0.75;
-}
-
 .picture-frame-1 {
     border: 0.5em solid #ED3500;
     border-style: double;
@@ -542,6 +472,132 @@ img {
     border: 0.3em dashed #ED3500;
     border-radius: 2em;
     padding: 0.25em;
+}
+
+.suffragist-frames {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 1em;
+}
+
+.suffragist-frame {
+    width: 30%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 2em 0em;
+}
+
+.flip-frame {
+    background-color: transparent;
+    width: 20em;
+    height: 20em;
+    perspective: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.flip-frame-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    align-items: center;
+    justify-content: center;
+}
+
+.flip-frame-front, .flip-frame-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-frame-front img {
+    height: 75%;
+    width: auto;
+    width: 13em;
+    height: 18em;
+    object-fit: cover;
+    object-position: center; 
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.flip-frame:hover .flip-frame-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-frame-back {
+    background-color: #FFFCFB;
+    color: #000000;
+    transform: rotateY(180deg);
+    padding: 1em;
+    height: 18em;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.frame-fact {
+    font-size: 1em !important;
+}
+
+@media screen and (max-width: 1100px) {
+    .suffragist-frames {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .suffragist-frame {
+        width: 100%;
+        display: block;
+        margin: 3em auto;
+    }
+}
+
+.suffragist-frame h1 {
+    text-align: center;
+    font-size: 1.25em;
+    width: 90%;
+    margin: 0.5em;
+}
+
+.suffragist-frame p {
+    text-align: center;
+    font-size: 0.75em;
+    width: 90%;
+    margin: 0em 0.75em;
+}
+
+.suffragist-frame a {
+    text-align: center;
+    color: #093FB4;
+}
+
+.suffragist-frame a:visited {
+    color: #093FB4;
+}
+
+.suffragist-frame a:hover {
+    cursor: pointer;
+    opacity: 0.75;
 }
 
 .inspire-me-quotes {
