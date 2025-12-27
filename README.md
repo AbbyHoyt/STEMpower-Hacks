@@ -11,6 +11,7 @@
 * [UN Women](https://www.unwomen.org/en/articles/facts-and-figures/facts-and-figures-womens-leadership-and-political-participation)
 * [Center for American Women and Politics](https://cawp.rutgers.edu/facts/voters/gender-differences-voter-turnout)
 * [Women Deliver](https://womendeliver.org/why-women-in-politics/)
+* [Reasons to Register and Vote](https://www.mentoring.org/wp-content/uploads/2020/08/reasons-register-vote.pdf)
 
 <br>
 
