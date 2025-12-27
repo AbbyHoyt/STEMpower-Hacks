@@ -28,3 +28,6 @@
 * [Highcharts](https://www.highcharts.com)
 * [JS Confetti Library](https://www.npmjs.com/package/js-confetti)
 * VS Code and GitHub
+
+
+View the project [here](https://abbyhoyt.github.io/STEMpower-Hacks/explore.html)!
