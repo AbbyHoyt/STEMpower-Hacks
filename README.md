@@ -29,5 +29,6 @@
 * [JS Confetti Library](https://www.npmjs.com/package/js-confetti)
 * VS Code and GitHub
 
+<br>
 
 View the project [here](https://abbyhoyt.github.io/STEMpower-Hacks/explore.html)!
