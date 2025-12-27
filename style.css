@@ -393,6 +393,14 @@ img {
     border-radius: 0.5em;
 }
 
+@media screen and (max-width: 1300px) {
+    .revolving-text {
+        width: 100%;
+        margin: 0em;
+        padding: 0.5em 0em;
+    }
+}
+
 .moving-text {
     font-family: 'Inclusive Sans', sans-serif;
     color: #093FB4;
@@ -430,6 +438,9 @@ img {
 
 @media screen and (max-width: 1300px) {
     .moving-text li {
+        width: 100%;
+        margin: 0em;
+        padding: 0em;
         font-size: 2.5em;
     }
 }
