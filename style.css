@@ -485,11 +485,13 @@ img {
 }
 
 .suffragist-frame {
-    width: 30%;
+    /*width: 30%;*/
+    width: 28%;
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin: 2em 0em;
+    /*margin: 2em 0em;*/
+    margin: 3em 0em;
 }
 
 .flip-frame {
