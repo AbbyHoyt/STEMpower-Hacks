@@ -25,22 +25,24 @@ document.addEventListener('DOMContentLoaded', function () {
                 text: 'Percentage',
             }
         },
-        series: [{
-            name: 'Percentage',
-            dataSorting: {
-                   enabled: true,
-                   sortKey: 'y'
-            },
-            data: [
-                   { name: 'Central and Southern Asia', y: 41 },
-                   { name: 'Europe and Northern America', y: 37 }, 
-                   { name: 'Oceania', y: 31 },
-                   { name: 'Eastern and South-Eastern Asia', y: 31 },
+        series: [
+            {
+                name: 'Percentage',
+                dataSorting: {
+                    enabled: true,
+                    sortKey: 'y'
+                },
+                data: [
+                    { name: 'Central and Southern Asia', y: 41 },
+                    { name: 'Europe and Northern America', y: 37 }, 
+                    { name: 'Oceania', y: 31 },
+                    { name: 'Eastern and South-Eastern Asia', y: 31 },
                     { name: 'Latin America and the Caribbean', y: 29 },
-                   { name: 'Sub-Saharan Africa', y: 26 },
-                   { name: 'Western Asia and Northern Africa', y: 2 }
-                  ]
-        }]
+                    { name: 'Sub-Saharan Africa', y: 26 },
+                    { name: 'Western Asia and Northern Africa', y: 2 }
+                ]
+            }
+        ]
     });
 
     const voterTurnoutMen = Highcharts.chart('voterTurnoutMen', {
@@ -67,42 +69,43 @@ document.addEventListener('DOMContentLoaded', function () {
             pie: {
                 allowPointSelect: true,
                 cursor: 'pointer',
-                dataLabels: [{
-                    enabled: true,
-                    distance: 20
-                }, {
-                    enabled: true,
-                    distance: -40,
-                    format: '{point.percentage:.1f}%',
-                    style: {
-                        fontSize: '1.2em',
-                        textOutline: 'none',
-                        opacity: 0.7
-                    },
-                    filter: {
-                        operator: '>',
-                        property: 'percentage',
-                        value: 10
+                dataLabels: [
+                    { 
+                        enabled: true, 
+                        distance: 20 
+                    }, 
+                    { 
+                        enabled: true,
+                        distance: -40,
+                        format: '{point.percentage:.1f}%',
+                        style: {
+                            fontSize: '1.2em',
+                            textOutline: 'none',
+                            opacity: 0.7
+                        },
+                        filter: {
+                            operator: '>',
+                            property: 'percentage',
+                            value: 10
+                        }
                     }
-                }]
-            }
-        },
-        series: [
-            {
-                name: 'Percentage',
-                colorByPoint: true,
-                data: [
-                    {
-                        name: 'Voted',
-                        y: 63.7
-                    },
-                    {
-                        name: 'Did Not Vote',
-                        y: 36.3
-                    },
                 ]
             }
-        ]
+        },
+        series: [{
+            name: 'Percentage',
+            colorByPoint: true,
+            data: [
+                {
+                    name: 'Voted',
+                    y: 63.7
+                },
+                {
+                    name: 'Did Not Vote',
+                    y: 36.3
+                },
+            ]
+        }]
     });
 
     const voterTurnoutWomen = Highcharts.chart('voterTurnoutWomen', {
@@ -129,24 +132,27 @@ document.addEventListener('DOMContentLoaded', function () {
             pie: {
                 allowPointSelect: true,
                 cursor: 'pointer',
-                dataLabels: [{
-                    enabled: true,
-                    distance: 20
-                }, {
-                    enabled: true,
-                    distance: -40,
-                    format: '{point.percentage:.1f}%',
-                    style: {
-                        fontSize: '1.2em',
-                        textOutline: 'none',
-                        opacity: 0.7
-                    },
-                    filter: {
-                        operator: '>',
-                        property: 'percentage',
-                        value: 10
+                dataLabels: [
+                    {
+                        enabled: true,
+                        distance: 20
+                    }, 
+                    {
+                        enabled: true,
+                        distance: -40,
+                        format: '{point.percentage:.1f}%',
+                        style: {
+                            fontSize: '1.2em',
+                            textOutline: 'none',
+                            opacity: 0.7
+                        },
+                        filter: {
+                            operator: '>',
+                            property: 'percentage',
+                            value: 10
+                        }
                     }
-                }]
+                ]
             }
         },
         series: [
