@@ -406,6 +406,15 @@ img {
     margin-bottom: -1em;
 }
 
+@media screen and (max-width: 1300px) {
+    .moving-text {
+        width: 100%;
+        margin: 0em;
+        margin-bottom: -1em;
+        padding: 0.5em 0em;
+    }
+}
+
 .moving-text li {
     list-style: none;
     color: #093FB4;
@@ -434,6 +443,12 @@ img {
 @media screen and (max-width: 900px) {
     .moving-text li {
         font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .moving-text li {
+        font-size: 0.75em;
     }
 }
 
