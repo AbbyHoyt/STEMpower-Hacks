@@ -3,7 +3,7 @@
 **References/Resources:**
 * Color palette from [ColorHunt](https://colorhunt.co/palette/093fb4fffcfbffd8d8ed3500).
 * Fonts ([Inclusive Sans](https://fonts.google.com/specimen/Inclusive+Sans) and [Fugaz One](https://fonts.google.com/specimen/Fugaz+One)) from Google Fonts.
-* CSS wavy circle made using [CSS Generator](https://css-generators.com/wavy-circle/).
+* CSS wavy circles made using [CSS Generator](https://css-generators.com/wavy-circle/).
 
 <br>
 
@@ -16,7 +16,7 @@
 <br>
 
 **Images:**
-* Home page icon and country outlines designed with Canva.
+* Suffragist icons and country outlines designed with Canva.
 * The sites where we sourced the famous suffragist pictures are acknowledged and linked in captions beneath their respective images.
 
 <br>
