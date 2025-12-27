@@ -366,17 +366,20 @@ img {
 @media screen and (max-width: 1300px) {
     .script-item {
         display: block;
+        width: 100%;
     }
 
     .script-item label {
         margin-bottom: 1em;
+        width: 100%;
     }
 
     .script-item input {
-        width: 100% !important;
+        width: 95%;
+        margin: 0em;
+        text-align: left;
         margin-right: auto;
         margin-left: auto;
-        display: block;
     }
 
     #script-button, #copy-button {
