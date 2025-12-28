@@ -1,5 +1,5 @@
 # STEMpower-Hacks
-Made for STEMPower Hacks (December 21st - December 28th 2025). 
+Made for STEMpower Hacks (December 21st - December 28th 2025). 
 
 <br>
 
