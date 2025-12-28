@@ -34,4 +34,6 @@ Made for STEMpower Hacks (December 21st - December 28th 2025).
 
 <br>
 
-View the project [here](https://abbyhoyt.github.io/STEMpower-Hacks/index.html)!
+View the project [here](https://abbyhoyt.github.io/STEMpower-Hacks/index.html)! 
+
+Visit the [Devpost submission page](https://devpost.com/software/decision-makehers) for a live demo and project write up.
