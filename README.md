@@ -1,4 +1,5 @@
 # STEMpower-Hacks
+Made for STEMPower Hacks (December 21st - December 28th 2025). 
 
 **References/Resources:**
 * Color palette from [ColorHunt](https://colorhunt.co/palette/093fb4fffcfbffd8d8ed3500).
