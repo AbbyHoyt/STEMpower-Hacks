@@ -1,4 +1,4 @@
-# STEMpower-Hacks
+# Decision MakeHERs
 Made for STEMpower Hacks (December 21st - December 28th 2025). 
 
 <br>
