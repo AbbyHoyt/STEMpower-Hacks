@@ -1025,7 +1025,7 @@ img {
 @media screen and (max-width: 1000px) { 
     .suffragette-image {
         height: 10em;
-        width: 5em;
+        width: 10em;
         margin-right: auto;
         margin-left: auto;
         display: block;
